@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 400px;
+    background: #ffffffee;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0d47a1;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 25px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 14px 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: transparent;
+  }
+  
+  .input-group label {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    background: white;
+    padding: 0 4px;
+    color: #999;
+    pointer-events: none;
+    transition: 0.2s ease all;
+  }
+  
+  .input-group input:focus + label,
+  .input-group input:not(:placeholder-shown) + label {
+    top: -10px;
+    font-size: 0.8rem;
+    color: #0d47a1;
+  }
+  
+  .checkbox-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .remember-label {
+    margin-left: 5px;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #0d47a1;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #1565c0;
+  }
+  
+  .link-text {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .link-text a {
+    color: #0d47a1;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
